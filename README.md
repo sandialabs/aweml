@@ -55,7 +55,7 @@ For a given dataset, the meta-parameters will ideally be set by using a cross-va
 
 The classifier based on building a tree of probabilities that are combined into a weighted average as illustrated in Fig 1.
 
-
+![alt text](https://raw.githubusercontent.com/sandialabs/aweml/master/tree1.png)
 
 ### Data Binning
 
