@@ -1,0 +1,4 @@
+include awe_ml/*.pyx
+include awe_ml/*.pxd
+include awe_ml/*.pxi
+include awe_ml/*.h

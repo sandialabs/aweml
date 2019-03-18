@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: awe-ml
+Version: 0.3.3
+Summary: Averaged Weights for Explainable Machine Learning
+Home-page: UNKNOWN
+Author: Sandia National Laboratories
+Author-email: sagarwa@sandia.gov
+License: UNKNOWN
+Description: Averaged Weights for Explainable Machine Learning, Compatible with Sci-Kit-Learn
+Platform: UNKNOWN
+Requires-Python: >=3
