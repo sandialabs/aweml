@@ -18,8 +18,11 @@ A binary distribution can be created for Red Hat 6 if requested.
 Source installation requires a C++11 compatible C compiler (The compiler should be configured in the path in Linux as needed so that pip can find the compiler). Numpy should be installed prior to installation.
 
 The classifier can be installed with pip:
+```
+cd aweml
+```
 ```python
-pip3 install awe_ml-0.3.3.tar.gz
+pip3 install awe_ml
 ```
 
 Prerequisites: Python 3, numpy>1.10, scikit-learn, pandas>0.21.0, C++11 for source installation
