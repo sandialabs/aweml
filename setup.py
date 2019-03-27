@@ -11,8 +11,8 @@ sourcefiles2 = ['awe_ml/binning.cpp']
 
 
 extensions = [
-    Extension("awe_ml.classifier_cython", sourcefiles1, include_dirs=[np.get_include()]),
-    Extension("awe_ml.binning", sourcefiles2, include_dirs=[np.get_include()]),
+    Extension("awe_ml.classifier_cython", sourcefiles1, include_dirs=[np.get_include()], extra_compile_args=['-std=c++11']),
+    Extension("awe_ml.binning", sourcefiles2, include_dirs=[np.get_include()], extra_compile_args=['-std=c++11']),
 ]
 
 setup(name='awe_ml',
